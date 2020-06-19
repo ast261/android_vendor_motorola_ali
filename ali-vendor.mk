@@ -20,6 +20,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/motorola/ali/proprietary/bin/wfdservice:system/bin/wfdservice \
+    vendor/motorola/ali/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
     vendor/motorola/ali/proprietary/etc/init/wfdservice.rc:system/etc/init/wfdservice.rc \
     vendor/motorola/ali/proprietary/etc/permissions/com.dolby.daxservice.xml:system/etc/permissions/com.dolby.daxservice.xml \
     vendor/motorola/ali/proprietary/vendor/etc/permissions/com.motorola.camera2.denali.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.camera2.denali.xml \
