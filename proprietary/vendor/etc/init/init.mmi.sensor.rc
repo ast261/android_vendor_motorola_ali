@@ -1,8 +1,0 @@
-
-# ali uses qcom sensor service
-
-service sensors /vendor/bin/sensors.qcom
-    class core
-    user root
-    group root
-    disabled
